@@ -8,7 +8,8 @@ header {
 
 body {
   margin: auto;
-  background:#e7f0fd;;
+  background: #e7f0fd;
+  ;
 }
 
 .nav {
@@ -85,7 +86,7 @@ a:visited {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .carousel-caption h1 {
@@ -112,37 +113,48 @@ a:visited {
   width: 250px;
   height: 180px;
   padding: auto;
+  background-color: #d7faff;
 }
 
-.card:hover{
+.card:hover {
   cursor: pointer;
+  transform: scale(1.2);
+  filter: brightness(1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: #eadff1;
 }
 
 .card img {
   margin: 5px auto;
   height: 85px;
   width: 85px;
+  filter: brightness(0.8);
+}
+
+.card img:hover {
+  transform: scale(0.9);
+  filter: brightness(0.8);
 }
 
 .card a {
   text-decoration: none;
-  font-weight: 500;
-  margin-top: 10px;
+  font-weight: 300;
+  margin: auto;
   color: #000;
-
+  font-size: 14px
 }
 
 .card:hover>a {
-  color: #b37a23;
-  font-weight: 500;
+  margin: auto;
+  font-weight: 300;
 }
 
 .button {
   border-radius: 50px;
-  background-color: #85d4fd;
+  background-color: #7bbbde;
   border: none;
   color: #000000;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   font-size: 15px;
   width: 230px;
@@ -150,10 +162,11 @@ a:visited {
   cursor: pointer;
   height: 35px;
 }
+
 .button:hover {
   background-color: #f9ae8a;
-  color: #fff;
-  font-weight: 700;
+  color: #000000;
+  font-weight: 500;
 }
 
 .button span {
