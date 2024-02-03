@@ -127,7 +127,7 @@ a:visited {
   transform: scale(1.2);
   filter: brightness(1);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  background-color: #eadff1;
+  background-color: #d7faff;
 }
 
 .card img {
@@ -259,10 +259,14 @@ a:visited {
   width: auto;
   margin-bottom: 15px;
 }
+
+/*FOOTER*/
+
 .footer {
   padding: 10px;
   margin-top: 10px;
   color: rgb(230, 34, 34);
-  background-image: linear-gradient(to top, #2b69af 0%, #e7f0fd 100%);
+  box-shadow: 20px 0px 9px rgba(0.3, 0.4, 0, 0.5);
+  background-image: linear-gradient(to right, #3d6dab 0%, #805063 100%);
   text-align: left;
 }
