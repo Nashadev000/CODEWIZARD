@@ -20,7 +20,7 @@ body {
   width: 100%;
   top: 0;
   z-index: 1;
-  background: #e7f0fd;
+  background-image: linear-gradient(to right, #bdd8fb 0%, #e7c4d2 100%);
   box-shadow: 0 5px 9px rgba(0.3, 0.4, 0, 0.5);
 }
 
@@ -37,6 +37,11 @@ body {
   padding: 12px;
   color: #000000;
   font-weight: 700;
+}
+.nav__li i {
+  width: 20px;
+  text-align: center;
+  margin-right: 5px;
 }
 
 .nav__li:hover>a {
@@ -241,6 +246,7 @@ a:visited {
   justify-content: center;
   align-items: center;
   height: 500px;
+  margin-bottom: 15%;
 }
 
 .container-body__card {
@@ -263,10 +269,60 @@ a:visited {
 /*FOOTER*/
 
 .footer {
-  padding: 10px;
-  margin-top: 10px;
-  color: rgb(230, 34, 34);
-  box-shadow: 20px 0px 9px rgba(0.3, 0.4, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-image: linear-gradient(to right, #3d6dab 0%, #805063 100%);
+  padding: auto;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon a {
+  margin: 15px auto;
+  font-size: 25px;
+  color: #7bbbde;
+  align-items: center;
+}
+
+.icon:hover>a{
+  color: #e9ce9f;
+  cursor: pointer;
+ justify-content: center;
+ align-items: center;
+
+ 
+}
+.additional-links,
+.contact-info {
   text-align: left;
 }
+
+.additional-links h5,
+.contact-info h5 {
+  font-size: 16px;
+  color: #000000;
+  margin: 15px;
+}
+
+.additional-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.privacy-policy-link {
+  margin-top: 10px;
+}
+
+.privacy-policy-link a {
+  text-decoration: none;
+  color: #e39e8b;
+}
+
